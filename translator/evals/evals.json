@@ -1,0 +1,23 @@
+{
+  "skill_name": "translator",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "幫我翻譯這段英文：\n\nArtificial intelligence (AI) is transforming the way businesses operate. Companies like Google, Microsoft, and OpenAI are investing billions of dollars into developing large language models (LLMs) and other AI systems. These technologies enable automation of complex tasks, from customer service chatbots to code generation tools like GitHub Copilot.\n\nHowever, the rapid adoption of AI also raises concerns about job displacement, data privacy, and the ethical use of these systems. Many organizations are now establishing AI governance frameworks to ensure responsible deployment.",
+      "expected_output": "雙語對照 Word 檔案，存到桌面。原文保留 AI、LLMs、Google、Microsoft、OpenAI、GitHub Copilot 等專有名詞，不強行翻譯。",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "這段日文幫我翻成中文，存成 word 檔：\n\nトヨタ自動車は、2030年までに電気自動車（EV）の販売台数を年間350万台に拡大する計画を発表した。同社はバッテリー技術の開発に1兆円を投資し、Tesla や BYD との競争に備えている。\n\n今後の戦略として、Toyota はサプライチェーンの見直しと、新しいソフトウェアプラットフォームの構築を進めている。特に、自動運転技術（Autonomous Driving）の分野では、Waymo や Mobileye などとの提携も検討中だという。",
+      "expected_output": "雙語對照 Word 檔案，存到桌面。トヨタ/Toyota、Tesla、BYD、Waymo、Mobileye 等品牌名保留原文。EV、Autonomous Driving 等技術術語適當處理。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "把這段英文翻成繁體中文，輸出成 markdown 格式，存到桌面：\n\nDocker is an open-source platform that automates the deployment, scaling, and management of applications using containerization technology. Unlike virtual machines (VMs), Docker containers share the host operating system's kernel, making them lightweight and fast.\n\nKey concepts:\n- Image: A read-only template used to create containers\n- Container: A runnable instance of an image\n- Dockerfile: A script containing instructions to build a Docker image\n- Docker Hub: A cloud-based registry for storing and sharing Docker images",
+      "expected_output": "雙語對照 Markdown 檔案，存到桌面。保留 Docker、VM、Dockerfile、Docker Hub 等專有名詞。Markdown 格式正確，包含標題和清單結構。",
+      "files": []
+    }
+  ]
+}
